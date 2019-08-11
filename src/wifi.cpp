@@ -2,13 +2,13 @@
 
 #include <WiFi.h>
 
+#include <wifi.h>
+
 class wifi
 {
 public:
     static void connect()
     {
-        const char *ssid = "Batcave";
-        const char *password = "iambrucewayne";
         delay(10);
         // We start by connecting to a WiFi network
         Serial.println();
